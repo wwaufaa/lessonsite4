@@ -9,6 +9,7 @@ header {
     margin-bottom: 20px;
     display: flex;
     background-color: #323B5F;
+    align-items: center;
 }
 
 .button {
@@ -49,8 +50,10 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
     display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
+    justify-content: center;
 }
 
 article {
@@ -67,6 +70,7 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
@@ -77,6 +81,10 @@ footer {
 
 footer a {
     margin-right: 25px;
+}
+
+footer p {
+    font-size: 24px;
 }
 
 footer p {
